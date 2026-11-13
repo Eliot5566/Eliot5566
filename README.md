@@ -9,13 +9,17 @@ research interests into a daily paper page and RSS feed. It supports Jev and
 Claude backends, with a CLI, GitHub Action and an optional Claude Code skill.
 Python 3.11+, MIT, no runtime dependencies.
 
-- [Claude quickstart](https://github.com/Eliot5566/JEV-Paper-Radar/blob/main/docs/claude-quickstart.md) · [繁體中文教學](https://github.com/Eliot5566/JEV-Paper-Radar/blob/main/docs/claude-quickstart.zh-TW.md)
+- **[Install in Claude](https://github.com/Eliot5566/JEV-Paper-Radar/blob/main/docs/claude-install.md)** · **[Download the upload ZIP](https://github.com/Eliot5566/JEV-Paper-Radar/releases/download/claude-skill-v0.1.0/paper-radar-claude.zip)** — upload and enable to try the offline demo or rank supplied abstracts in the current conversation, with no pip or separate API key. Normal Claude plan usage applies.
+- [Claude API quickstart](https://github.com/Eliot5566/JEV-Paper-Radar/blob/main/docs/claude-quickstart.md) · [繁體中文教學](https://github.com/Eliot5566/JEV-Paper-Radar/blob/main/docs/claude-quickstart.zh-TW.md)
 - [Ready-to-fork Claude example](https://github.com/Eliot5566/paper-radar-claude-example)
 - [Read the public Jev feeds](https://eliot5566.github.io/JEV-Paper-Radar/public/) — no setup or key
 - Try the fictional, offline demo: `python -m pip install paper-radar==0.2.0`, then `paper-radar demo`
 
-Claude judging uses the separately billed Anthropic API. Its scores are
-self-reported; the Jev benchmark does not establish Claude accuracy.
+The upload bundle was tested in a Claude web conversation with Opus 5.5:
+a 44-paper fictional demo and a three-paper conversation report with HTML,
+CSV, JSON and RSS. These are functionality checks, not accuracy benchmarks.
+Scheduled CLI judging uses the separately billed Anthropic API. Claude scores
+are self-reported; the Jev benchmark does not establish Claude accuracy.
 Version 0.2.0 adds judging-request usage auditing, including repair and failed
 attempts, and reports unknown costs when usage or rates are missing.
 
