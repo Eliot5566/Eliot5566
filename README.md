@@ -10,7 +10,7 @@ Claude backends, with a CLI, GitHub Action and an uploadable Claude skill.
 Python 3.11+, MIT, no runtime dependencies.
 
 - **[Try the public examples](https://eliot5566.github.io/JEV-Paper-Radar/try/)** · **[繁體中文](https://eliot5566.github.io/JEV-Paper-Radar/try/?lang=zh)** — browse reports before installing, choose a research interest, and copy a ready-to-use prompt.
-- **[Install in Claude](https://github.com/Eliot5566/JEV-Paper-Radar/blob/main/docs/claude-install.md)** · **[Download the upload ZIP](https://github.com/Eliot5566/JEV-Paper-Radar/releases/download/claude-skill-v0.1.0/paper-radar-claude.zip)** — upload and enable to try the offline demo or rank supplied abstracts in the current conversation, with no pip or separate API key. Normal Claude plan usage applies.
+- **[Install in Claude](https://github.com/Eliot5566/JEV-Paper-Radar/blob/main/docs/claude-install.md)** · **[Download the upload ZIP](https://github.com/Eliot5566/JEV-Paper-Radar/releases/download/claude-skill-v0.2.0/paper-radar-claude-v0.2.0.zip)** — upload and enable skill 0.2.0, then describe an interest or paste arXiv/PubMed/DOI links. It retrieves public titles/abstracts and ranks in the current conversation; no CSV preparation, pip or separate model API key. Retrieval needs permitted network access or existing Claude web tools; normal Claude plan usage applies.
 - [Claude API quickstart](https://github.com/Eliot5566/JEV-Paper-Radar/blob/main/docs/claude-quickstart.md) · [繁體中文教學](https://github.com/Eliot5566/JEV-Paper-Radar/blob/main/docs/claude-quickstart.zh-TW.md)
 - [Ready-to-fork Claude example](https://github.com/Eliot5566/paper-radar-claude-example)
 - [Read the public Jev feeds](https://eliot5566.github.io/JEV-Paper-Radar/public/) — no setup or key
